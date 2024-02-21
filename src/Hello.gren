@@ -1,0 +1,8 @@
+module Hello exposing (main)
+
+import Html exposing (Html, h1)
+
+main : Html a
+main =
+    h1 []
+        [ Html.text "Flex. 😎 \n Let the records show that I was coding in gren-lang before it was cool & maintsream. 😏" ]

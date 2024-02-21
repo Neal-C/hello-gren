@@ -1,0 +1,6 @@
+module Main exposing(main)
+
+import Node.Environment as Environment
+
+
+main = Environment.stdout "Flex. 😎 \n Let the records show that I was coding in gren-lang before it was cool & maintsream. 😏"

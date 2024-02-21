@@ -1,0 +1,5 @@
+isZero : Int -> Bool
+isZero num =
+    case num of
+        0 -> True
+        _ -> False

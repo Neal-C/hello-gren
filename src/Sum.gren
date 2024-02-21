@@ -1,0 +1,5 @@
+sumOf first second =
+    first + second
+
+sumOfFiveAndTwo =
+    sumOf 5 2

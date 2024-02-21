@@ -28,7 +28,8 @@ Resources :
 ```shell
 git clone git@github.com:Neal-C/hello-gren.git
 cd hello-gren
-docker build -t nealc-gren-lang:latest . && docker run -d -p 8080:80 --name nealc-gren nealc-gren-lang:latest
+docker build -t nealc-gren-lang:latest .
+docker run -d -p 8080:80 --name nealc-gren nealc-gren-lang:latest
 ```
 
 Go see the result !
